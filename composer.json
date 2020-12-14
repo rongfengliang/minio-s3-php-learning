@@ -1,0 +1,19 @@
+{
+    "name": "mys3/demoapp",
+    "description": "minios3 leanting",
+    "license": "MIT",
+    "type": "project",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "require": {
+        "aws/aws-sdk-php": "^3.168",
+        "symfony/dotenv": "^5.2"
+    }
+}
